@@ -552,7 +552,10 @@ function renderCards(d){
       toolEnd({tool: on ? "wishlist add" : "wishlist remove", input: {product_id: b.dataset.id}, source: "sheets", ms: 0});
     }catch(e){ b.classList.toggle("on", !on); }
   });
-  $("#ctx").insertAdjacentHTML("beforeend", `<div class="railhead"><b>All ${d.top.length} that passed</b> · from ${esc((d.shops || []).join(", ") || "Myntra")} · scroll to see every one · ♡ to save</div>`);
+  const shopsOn = [...new Set(d.top.map(p => p.shop || "Myntra"))];
+  $("#ctx").insertAdjacentHTML("beforeend", d.top.length
+    ? `<div class="railhead"><b>All ${d.top.length} that passed</b> · from ${esc(shopsOn.join(", "))} · scroll to see every one · ♡ to save</div>`
+    : `<div class="railhead"><b>Nothing passed your limits</b> · Cartis never loosens a limit without asking</div>`);
 }
 function cardNote(pid, cls, text, ref){
   const i = CARDS.findIndex(p => String(p.id) === String(pid));
@@ -837,6 +840,7 @@ async function speakAndShow(final){
       await a.play(); n.tick(0); audioOk = true;
       toolEnd({tool: "gnani tts", input: {chars: plain.length}, source: "live:gnani", ms: Math.round(performance.now() - t0)});
     }catch(e){
+      if (e && e.name === "AbortError"){ n.finish(); return; }   // the shopper interrupted (typed or spoke): not a failure
       console.warn("Gnani TTS failed", e);
       toolEnd({tool: "gnani tts", input: {chars: plain.length}, source: "", ms: Math.round(performance.now() - t0), error: String(e.message || e)});
       audioOk = browserSpeak(plain, n);        // still heard: the browser's own voice

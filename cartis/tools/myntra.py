@@ -178,7 +178,7 @@ def recheck_stock(product_id: str, size: str, pincode: str | None = None) -> dic
         payload = {"productIds": [product_id], "enrichDetails": True, "maxItems": 1}
         if pincode:
             payload["pincode"] = pincode
-        items = _run_actor(STOCK_ACTOR, payload, timeout=120)
+        items = _run_actor(STOCK_ACTOR, payload, timeout=35)   # a stuck recheck must not stall the buy
         src = "live:apify/khadinakbar"
         p = items[0] if items else {}
         sizes = _sizes(p.get("sizes"))
