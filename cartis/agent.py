@@ -56,13 +56,31 @@ HOW YOU WORK
 """
 
 
+_POOL = None
+_LIMIT_S = {"search_shops": 170, "recheck_stock": 140, "import_order_history": 90, "check_order_email": 90}
+
+
+def _run_with_limit(name: str, args: dict):
+    """Run a tool with a time limit, so one stalled network call can't freeze the conversation."""
+    import concurrent.futures as cf
+
+    global _POOL
+    _POOL = _POOL or cf.ThreadPoolExecutor(max_workers=8, thread_name_prefix="tool")
+    fut = _POOL.submit(HANDLERS[name], args)
+    try:
+        return fut.result(timeout=_LIMIT_S.get(name, 60))
+    except cf.TimeoutError:
+        raise TimeoutError(f"{name} took longer than {_LIMIT_S.get(name, 60)} s; carry on without it") from None
+
+
 class Session:
     def __init__(self, model: str | None = None) -> None:
         if not config.ANTHROPIC_API_KEY:
             raise RuntimeError("ANTHROPIC_API_KEY missing in .env")
         # gzip only: some Anaconda builds ship an old brotli/zstd decoder that crashes httpx
         self.client = anthropic.Anthropic(api_key=config.ANTHROPIC_API_KEY,
-                                          default_headers={"Accept-Encoding": "gzip, deflate"})
+                                          default_headers={"Accept-Encoding": "gzip, deflate"},
+                                          timeout=90.0, max_retries=2)
         self.model = model or config.CARTIS_MODEL
         self.messages: list[dict[str, Any]] = []
         self.done = False
@@ -136,7 +154,7 @@ class Session:
                 emit({"type": "tool_start", "data": {"tool": c.name, "input": c.input}})
                 t0 = time.time()
                 try:
-                    out, ui = HANDLERS[c.name](dict(c.input))
+                    out, ui = _run_with_limit(c.name, dict(c.input))
                     err = None
                 except Exception as e:  # surface to Claude, keep the demo alive
                     out, ui, err = {"error": f"{type(e).__name__}: {e}"}, None, str(e)

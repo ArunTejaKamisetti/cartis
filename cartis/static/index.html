@@ -877,10 +877,13 @@ async function stream(url, body){
     const res = await fetch(url, {method:"POST", headers:{"Content-Type":"application/json"}, body: JSON.stringify(body)});
     const reader = res.body.getReader(), dec = new TextDecoder(); let buf = "";
     for (;;){
-      const {value, done} = await reader.read(); if (done) break;
+      // watchdog: the server pings every 15 s, so 100 s of silence means the connection is gone
+      const {value, done} = await Promise.race([reader.read(),
+        new Promise((_, rej) => setTimeout(() => rej(new Error("no response for 100 s, please try again")), 100000))]);
+      if (done) break;
       buf += dec.decode(value, {stream:true}); let i;
       while ((i = buf.indexOf("\n\n")) >= 0){
-        const line = buf.slice(0, i).replace(/^data: /, ""); buf = buf.slice(i + 2); if (!line.trim()) continue;
+        const line = buf.slice(0, i).replace(/^data: /, ""); buf = buf.slice(i + 2); if (!line.trim() || line.startsWith(":")) continue;
         const e = JSON.parse(line);
         if (e.type === "session"){ S.sid = e.data.session_id; try{ localStorage.setItem("cartis_sid", S.sid); }catch(_){} }
         else if (e.type === "tool_start") toolStart(e.data);
@@ -890,7 +893,7 @@ async function stream(url, body){
         else if (e.type === "error") $("#cap").textContent = "Something went wrong: " + e.data.message;
       }
     }
-  }catch(err){ $("#cap").textContent = "Couldn't reach Cartis: " + err.message; }
+  }catch(err){ $("#cap").textContent = "Couldn't reach Cartis: " + err.message; $$("#trail .st.run").forEach(e => e.remove()); }
   S.busy = false;
   if (S.hold){ await S.hold; S.hold = null; }
   if (final) await speakAndShow(final); else setOrb("");

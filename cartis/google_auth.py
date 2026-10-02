@@ -98,4 +98,9 @@ def credentials():
 def service(name: str, version: str):
     from googleapiclient.discovery import build
 
-    return build(name, version, credentials=credentials(), cache_discovery=False)
+    import httplib2
+    from google_auth_httplib2 import AuthorizedHttp
+
+    # a timeout, so a stalled Google connection fails (and is retried) instead of hanging a turn forever
+    http = AuthorizedHttp(credentials(), http=httplib2.Http(timeout=25))
+    return build(name, version, http=http, cache_discovery=False)

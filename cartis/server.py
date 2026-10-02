@@ -94,7 +94,14 @@ def _stream(sid: str, run) -> StreamingResponse:
 
     def gen():
         yield f"data: {json.dumps({'type': 'session', 'data': {'session_id': sid}})}\n\n"
-        while (e := q.get()) is not None:
+        while True:
+            try:
+                e = q.get(timeout=15)
+            except queue.Empty:          # heartbeat: keeps proxies (Render) from closing a quiet stream
+                yield ": ping\n\n"
+                continue
+            if e is None:
+                break
             yield f"data: {json.dumps(e, ensure_ascii=False, default=str)}\n\n"
 
     return StreamingResponse(gen(), media_type="text/event-stream",
