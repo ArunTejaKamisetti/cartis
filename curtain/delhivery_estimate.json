@@ -1,0 +1,39 @@
+{
+  "_note": "Distances: replace with real compute_distance_matrix outputs if you have them.",
+  "seller_pins": [
+    "110037",
+    "400072",
+    "560067",
+    "122001",
+    "700091",
+    "600095"
+  ],
+  "km_by_pair": {
+    "110-560": 2150,
+    "400-560": 985,
+    "560-560": 25,
+    "122-560": 2140,
+    "700-560": 1870,
+    "600-560": 345
+  },
+  "truck_kmph": 45,
+  "spread_days": 2,
+  "handling_days_by_km": [
+    {
+      "max_km": 100,
+      "days": 1
+    },
+    {
+      "max_km": 800,
+      "days": 2
+    },
+    {
+      "max_km": 1600,
+      "days": 3
+    },
+    {
+      "max_km": 99999,
+      "days": 4
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "delivery_codes": [
+    {
+      "postal_code": {
+        "district": "Bangalore",
+        "pin": "{pincode}",
+        "max_amount": 0.0,
+        "pre_paid": "Y",
+        "cash": "Y",
+        "pickup": "Y",
+        "repl": "Y",
+        "cod": "Y",
+        "country_code": "IN",
+        "sort_code": "BLR/KMN",
+        "is_oda": "N",
+        "state_code": "KA",
+        "max_weight": 0.0
+      }
+    }
+  ],
+  "_note": "PASTE the Delhivery docs sample response here (keep {pincode} if you want it filled)."
+}

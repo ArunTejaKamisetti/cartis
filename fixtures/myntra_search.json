@@ -1,0 +1,385 @@
+[
+  {
+    "style_id": 30011001,
+    "product_name": "Men Chikankari Pure Cotton Kurta",
+    "brand": "Anouk",
+    "price": 1299,
+    "mrp": 2599,
+    "discount_percent": 50.0,
+    "rating": 4.51,
+    "rating_count": 590,
+    "reviews_count": 430,
+    "rating_breakdown": {
+      "5": 410,
+      "4": 120,
+      "3": 30,
+      "2": 12,
+      "1": 18
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "specifications": {
+      "Fabric": "Pure Cotton",
+      "Fit": "Regular Fit"
+    },
+    "url": "https://www.myntra.com/kurtas/anouk/30011001/buy",
+    "images": [
+      "https://picsum.photos/seed/cartis1/400/533"
+    ]
+  },
+  {
+    "style_id": 30011002,
+    "product_name": "Men Solid Cotton Straight Kurta",
+    "brand": "Fabindia",
+    "price": 1490,
+    "mrp": 1990,
+    "discount_percent": 25.1,
+    "rating": 4.47,
+    "rating_count": 345,
+    "reviews_count": 140,
+    "rating_breakdown": {
+      "5": 220,
+      "4": 90,
+      "3": 20,
+      "2": 6,
+      "1": 9
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "specifications": {
+      "Fabric": "Cotton",
+      "Fit": "Regular Fit"
+    },
+    "url": "https://www.myntra.com/kurtas/fabindia/30011002/buy",
+    "images": [
+      "https://picsum.photos/seed/cartis2/400/533"
+    ]
+  },
+  {
+    "style_id": 30011003,
+    "product_name": "Men Mandarin Collar Kurta",
+    "brand": "Highlander",
+    "price": 799,
+    "mrp": 1999,
+    "discount_percent": 60.0,
+    "rating": 3.91,
+    "rating_count": 550,
+    "reviews_count": 60,
+    "rating_breakdown": {
+      "5": 300,
+      "4": 80,
+      "3": 60,
+      "2": 40,
+      "1": 70
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "specifications": {
+      "Fabric": "Cotton Blend",
+      "Fit": "Slim Fit"
+    },
+    "url": "https://www.myntra.com/kurtas/highlander/30011003/buy",
+    "images": [
+      "https://picsum.photos/seed/cartis3/400/533"
+    ]
+  },
+  {
+    "style_id": 30011004,
+    "product_name": "Men Linen Blend Kurta",
+    "brand": "Manyavar",
+    "price": 2499,
+    "mrp": 3999,
+    "discount_percent": 37.5,
+    "rating": 4.72,
+    "rating_count": 630,
+    "reviews_count": 300,
+    "rating_breakdown": {
+      "5": 500,
+      "4": 100,
+      "3": 20,
+      "2": 5,
+      "1": 5
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "specifications": {
+      "Fabric": "Linen Blend",
+      "Fit": "Regular Fit"
+    },
+    "url": "https://www.myntra.com/kurtas/manyavar/30011004/buy",
+    "images": [
+      "https://picsum.photos/seed/cartis4/400/533"
+    ]
+  },
+  {
+    "style_id": 30011005,
+    "product_name": "Men Printed Kurta",
+    "brand": "Roadster",
+    "price": 699,
+    "mrp": 1499,
+    "discount_percent": 53.4,
+    "rating": 3.93,
+    "rating_count": 280,
+    "reviews_count": 40,
+    "rating_breakdown": {
+      "5": 150,
+      "4": 50,
+      "3": 30,
+      "2": 10,
+      "1": 40
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "specifications": {
+      "Fabric": "Polyester",
+      "Fit": "Regular Fit"
+    },
+    "url": "https://www.myntra.com/kurtas/roadster/30011005/buy",
+    "images": [
+      "https://picsum.photos/seed/cartis5/400/533"
+    ]
+  },
+  {
+    "style_id": 30011006,
+    "product_name": "Men Self-Design Kurta",
+    "brand": "House of Pataudi",
+    "price": 1199,
+    "mrp": 2399,
+    "discount_percent": 50.0,
+    "rating": 4.24,
+    "rating_count": 21,
+    "reviews_count": 9,
+    "rating_breakdown": {
+      "5": 12,
+      "4": 5,
+      "3": 2,
+      "2": 1,
+      "1": 1
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "specifications": {
+      "Fabric": "Cotton",
+      "Fit": "Regular Fit"
+    },
+    "url": "https://www.myntra.com/kurtas/house-of-pataudi/30011006/buy",
+    "images": [
+      "https://picsum.photos/seed/cartis6/400/533"
+    ]
+  },
+  {
+    "style_id": 30011007,
+    "product_name": "Men Pintuck Cotton Kurta",
+    "brand": "Sojanya",
+    "price": 1399,
+    "mrp": 2799,
+    "discount_percent": 50.0,
+    "rating": 4.43,
+    "rating_count": 417,
+    "reviews_count": 180,
+    "rating_breakdown": {
+      "5": 260,
+      "4": 110,
+      "3": 25,
+      "2": 10,
+      "1": 12
+    },
+    "sizes": [
+      "S",
+      "M",
+      "XL"
+    ],
+    "specifications": {
+      "Fabric": "Pure Cotton",
+      "Fit": "Regular Fit"
+    },
+    "url": "https://www.myntra.com/kurtas/sojanya/30011007/buy",
+    "images": [
+      "https://picsum.photos/seed/cartis7/400/533"
+    ]
+  },
+  {
+    "style_id": 30011008,
+    "product_name": "Men Khadi Kurta",
+    "brand": "Khadi Essentials",
+    "price": 1099,
+    "mrp": 1799,
+    "discount_percent": 38.9,
+    "rating": 4.47,
+    "rating_count": 292,
+    "reviews_count": 150,
+    "rating_breakdown": {
+      "5": 190,
+      "4": 70,
+      "3": 18,
+      "2": 6,
+      "1": 8
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "specifications": {
+      "Fabric": "Khadi Cotton",
+      "Fit": "Relaxed Fit"
+    },
+    "url": "https://www.myntra.com/kurtas/khadi-essentials/30011008/buy",
+    "images": [
+      "https://picsum.photos/seed/cartis8/400/533"
+    ]
+  },
+  {
+    "style_id": 30011009,
+    "product_name": "Men Embroidered Kurta",
+    "brand": "Vastramay",
+    "price": 1349,
+    "mrp": 3299,
+    "discount_percent": 59.1,
+    "rating": 4.27,
+    "rating_count": 835,
+    "reviews_count": 120,
+    "rating_breakdown": {
+      "5": 520,
+      "4": 160,
+      "3": 70,
+      "2": 30,
+      "1": 55
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "specifications": {
+      "Fabric": "Cotton",
+      "Fit": "Regular Fit"
+    },
+    "url": "https://www.myntra.com/kurtas/vastramay/30011009/buy",
+    "images": [
+      "https://picsum.photos/seed/cartis9/400/533"
+    ]
+  },
+  {
+    "style_id": 30011010,
+    "product_name": "Men Striped Cotton Kurta",
+    "brand": "Mitera",
+    "price": 999,
+    "mrp": 1999,
+    "discount_percent": 50.0,
+    "rating": 4.45,
+    "rating_count": 151,
+    "reviews_count": 70,
+    "rating_breakdown": {
+      "5": 95,
+      "4": 40,
+      "3": 9,
+      "2": 3,
+      "1": 4
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "specifications": {
+      "Fabric": "Pure Cotton",
+      "Fit": "Regular Fit"
+    },
+    "url": "https://www.myntra.com/kurtas/mitera/30011010/buy",
+    "images": [
+      "https://picsum.photos/seed/cartis10/400/533"
+    ]
+  },
+  {
+    "style_id": 30011011,
+    "product_name": "Men Solid Kurta",
+    "brand": "HERE&NOW",
+    "price": 899,
+    "mrp": 1799,
+    "discount_percent": 50.0,
+    "rating": 4.21,
+    "rating_count": 379,
+    "reviews_count": 30,
+    "rating_breakdown": {
+      "5": 210,
+      "4": 95,
+      "3": 40,
+      "2": 12,
+      "1": 22
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "specifications": {
+      "Fabric": "Cotton",
+      "Fit": "Regular Fit"
+    },
+    "url": "https://www.myntra.com/kurtas/here&now/30011011/buy",
+    "images": [
+      "https://picsum.photos/seed/cartis11/400/533"
+    ]
+  },
+  {
+    "style_id": 30011012,
+    "product_name": "Men Rayon Kurta",
+    "brand": "Jompers",
+    "price": 649,
+    "mrp": 1599,
+    "discount_percent": 59.4,
+    "rating": 4.39,
+    "rating_count": 590,
+    "reviews_count": 200,
+    "rating_breakdown": {
+      "5": 400,
+      "4": 100,
+      "3": 40,
+      "2": 20,
+      "1": 30
+    },
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "specifications": {
+      "Fabric": "Rayon",
+      "Fit": "Regular Fit"
+    },
+    "url": "https://www.myntra.com/kurtas/jompers/30011012/buy",
+    "images": [
+      "https://picsum.photos/seed/cartis12/400/533"
+    ]
+  }
+]

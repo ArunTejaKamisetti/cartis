@@ -1,0 +1,36 @@
+{
+  "shopping": [
+    {
+      "title": "Anouk Men Chikankari Pure Cotton Kurta",
+      "source": "Myntra",
+      "price": "\u20b91,299",
+      "link": "https://www.myntra.com/kurtas/anouk/30011001/buy",
+      "rating": 4.4,
+      "ratingCount": 590
+    },
+    {
+      "title": "Anouk Chikankari Cotton Kurta for Men",
+      "source": "Ajio",
+      "price": "\u20b91,349",
+      "link": "https://www.ajio.com/p/anouk-chikankari",
+      "rating": 4.2,
+      "ratingCount": 120
+    },
+    {
+      "title": "Anouk Men White Chikankari Kurta",
+      "source": "Tata CLiQ",
+      "price": "\u20b91,379",
+      "link": "https://www.tatacliq.com/anouk-kurta",
+      "rating": 4.1,
+      "ratingCount": 44
+    },
+    {
+      "title": "Anouk Men's Kurta Chikan",
+      "source": "Amazon.in",
+      "price": "\u20b91,420",
+      "link": "https://www.amazon.in/dp/EXAMPLE",
+      "rating": 4.0,
+      "ratingCount": 210
+    }
+  ]
+}

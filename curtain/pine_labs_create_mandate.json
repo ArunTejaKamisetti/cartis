@@ -1,0 +1,16 @@
+{
+  "_note": "PASTE the Pine Labs createMandate (POST /mpp/v1/pre-authorize) docs sample here. Placeholders: {ref} {amount_paise} {ts} {merchant}",
+  "data": {
+    "mandate_id": "v1-mdt-{ts}",
+    "merchant_order_reference": "{ref}",
+    "status": "PRE_AUTHORIZED",
+    "amount": {
+      "value": "{amount_paise}",
+      "currency": "INR"
+    },
+    "merchant": "{merchant}",
+    "valid_till": "+24h",
+    "payment_method": "P3P",
+    "created_at": "{ts}"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "default_days": 3,
+  "days_by_pin_prefix": {
+    "560": 1,
+    "110": 2,
+    "400": 1
+  },
+  "lane_spread_days": 4,
+  "unknown_every": 13,
+  "confidence": 0.92
+}

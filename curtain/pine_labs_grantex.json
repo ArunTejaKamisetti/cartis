@@ -1,0 +1,8 @@
+{
+  "_note": "Grantex token claims used by Pine Labs decidePayment (Round 2 Q4 cap 17).",
+  "agent_did": "did:web:cartis.app:agent:arun",
+  "scope": [
+    "mpp:payment:initiate"
+  ],
+  "per_transaction_cap_inr": 5000
+}

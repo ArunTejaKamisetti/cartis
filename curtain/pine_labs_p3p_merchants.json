@@ -1,0 +1,12 @@
+{
+  "accepting_merchants": [
+    "Myntra",
+    "Ajio",
+    "Tata CLiQ",
+    "Amazon",
+    "Flipkart",
+    "Fabindia",
+    "Nykaa"
+  ],
+  "note": "Edit this list to change which shops the curtain says accept P3P."
+}

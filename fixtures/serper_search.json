@@ -1,0 +1,103 @@
+{
+  "shopping": [
+    {
+      "title": "Fabindia Men White Cotton Straight Kurta",
+      "source": "Fabindia",
+      "price": "₹1,290",
+      "rating": 4.3,
+      "ratingCount": 412,
+      "link": "https://example-shop.test/0",
+      "imageUrl": "https://picsum.photos/seed/g0/400/400"
+    },
+    {
+      "title": "Manyavar Men White Pure Cotton Kurta",
+      "source": "Manyavar",
+      "price": "₹1,999",
+      "rating": 4.5,
+      "ratingCount": 220,
+      "link": "https://example-shop.test/1",
+      "imageUrl": "https://picsum.photos/seed/g1/400/400"
+    },
+    {
+      "title": "Amazon Brand - Symbol Men's Cotton White Kurta",
+      "source": "Amazon.in",
+      "price": "₹649",
+      "rating": 4.0,
+      "ratingCount": 3150,
+      "link": "https://example-shop.test/2",
+      "imageUrl": "https://picsum.photos/seed/g2/400/400"
+    },
+    {
+      "title": "Jaipur Kurti Men White Cotton Kurta",
+      "source": "AJIO.com",
+      "price": "₹899",
+      "rating": 4.1,
+      "ratingCount": 186,
+      "link": "https://example-shop.test/3",
+      "imageUrl": "https://picsum.photos/seed/g3/400/400"
+    },
+    {
+      "title": "Men's White Chikankari Cotton Kurta",
+      "source": "Flipkart",
+      "price": "₹749",
+      "rating": 3.9,
+      "ratingCount": 1290,
+      "link": "https://example-shop.test/4",
+      "imageUrl": "https://picsum.photos/seed/g4/400/400"
+    },
+    {
+      "title": "Biba Men Off White Linen Kurta",
+      "source": "Tata CLiQ",
+      "price": "₹1,450",
+      "rating": 4.2,
+      "ratingCount": 64,
+      "link": "https://example-shop.test/5",
+      "imageUrl": "https://picsum.photos/seed/g5/400/400"
+    },
+    {
+      "title": "Peter England Men White Polyester Kurta",
+      "source": "Peter England",
+      "price": "₹999",
+      "rating": 4.0,
+      "ratingCount": 88,
+      "link": "https://example-shop.test/6",
+      "imageUrl": "https://picsum.photos/seed/g6/400/400"
+    },
+    {
+      "title": "Men White Rayon Kurta Pajama Set",
+      "source": "Meesho",
+      "price": "₹420",
+      "rating": 3.7,
+      "ratingCount": 940,
+      "link": "https://example-shop.test/7",
+      "imageUrl": "https://picsum.photos/seed/g7/400/400"
+    },
+    {
+      "title": "Soch Men White Cotton Kurta",
+      "source": "Nykaa Fashion",
+      "price": "₹1,190",
+      "rating": 4.4,
+      "ratingCount": 22,
+      "link": "https://example-shop.test/8",
+      "imageUrl": "https://picsum.photos/seed/g8/400/400"
+    },
+    {
+      "title": "House of Pataudi White Cotton Kurta",
+      "source": "Myntra",
+      "price": "₹1,199",
+      "rating": 4.2,
+      "ratingCount": 300,
+      "link": "https://example-shop.test/9",
+      "imageUrl": "https://picsum.photos/seed/g9/400/400"
+    },
+    {
+      "title": "Indian Terrain Men White Cotton Kurta",
+      "source": "Indian Terrain",
+      "price": "₹1,399",
+      "rating": 4.3,
+      "ratingCount": 57,
+      "link": "https://example-shop.test/10",
+      "imageUrl": "https://picsum.photos/seed/g10/400/400"
+    }
+  ]
+}

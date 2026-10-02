@@ -1,0 +1,12 @@
+{
+  "_default": {
+    "returns_last_90d": 3,
+    "top_reason": "size runs small",
+    "advice": "None flagged for this size"
+  },
+  "30011002": {
+    "returns_last_90d": 41,
+    "top_reason": "size L runs one size small",
+    "advice": "Buyers of L returned 18% of orders; consider XL"
+  }
+}

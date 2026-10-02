@@ -1,0 +1,32 @@
+[
+  {
+    "date": "Sun, 23 Aug 2026",
+    "subject": "Your Order Confirmation.",
+    "order_id": "1339388-5617313-4733101",
+    "amount": 5016.0,
+    "shop": "Myntra",
+    "items": [
+      {
+        "size": "L",
+        "item_text": "Roadster Men Slim Fit Casual Shirt"
+      },
+      {
+        "size": "32",
+        "item_text": "Levis Men 511 Slim Fit Jeans"
+      }
+    ]
+  },
+  {
+    "date": "Tue, 12 May 2026",
+    "subject": "Your Order Confirmation.",
+    "order_id": "1288112-4410029-1180021",
+    "amount": 1299.0,
+    "shop": "Myntra",
+    "items": [
+      {
+        "size": "L",
+        "item_text": "Anouk Men Kurta"
+      }
+    ]
+  }
+]

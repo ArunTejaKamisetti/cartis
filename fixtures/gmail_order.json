@@ -1,0 +1,10 @@
+{
+  "email_id": "fixture-1",
+  "subject": "Your Myntra order is confirmed",
+  "from": "Myntra <updates@myntra.com>",
+  "date": "today",
+  "snippet": "Thank you for shopping with Myntra. Order ID 1234567-8901234-5678",
+  "order_id": "1234567-8901234-5678",
+  "amount": 1299.0,
+  "shop": "Myntra"
+}

@@ -1,0 +1,38 @@
+{
+  "_default": [
+    {
+      "label": "S",
+      "available": true
+    },
+    {
+      "label": "M",
+      "available": true
+    },
+    {
+      "label": "L",
+      "available": true
+    },
+    {
+      "label": "XL",
+      "available": true
+    }
+  ],
+  "30011002": [
+    {
+      "label": "S",
+      "available": true
+    },
+    {
+      "label": "M",
+      "available": true
+    },
+    {
+      "label": "L",
+      "available": false
+    },
+    {
+      "label": "XL",
+      "available": true
+    }
+  ]
+}
